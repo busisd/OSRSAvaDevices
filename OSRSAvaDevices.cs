@@ -12,7 +12,6 @@ namespace OSRSAvaDevices
     {
         /*
 		 * TODO:
-		 * Assembler, accumulator
 		 * Masori's?
 		 * Dizana's?
 		 * Stat bZuffs beyond ammo saving?

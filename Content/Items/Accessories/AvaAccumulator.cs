@@ -7,9 +7,9 @@ using Terraria.ModLoader;
 namespace OSRSAvaDevices.Content.Items.Accessories
 {
     [AutoloadEquip(EquipType.Back)]
-    internal class AvaAttractor : AvaDevice
+    internal class AvaAccumulator : AvaDevice
     {
-        public override double AmmoSaveChance => .6;
+        public override double AmmoSaveChance => .72;
 
         public override LocalizedText Tooltip => base.Tooltip.WithFormatArgs(AmmoSaveChance * 100);
 
@@ -21,7 +21,7 @@ namespace OSRSAvaDevices.Content.Items.Accessories
 
         public override bool CanAccessoryBeEquippedWith(Item equippedItem, Item incomingItem, Player player)
         {
-            return incomingItem.ModItem is not AvaAssembler && incomingItem.ModItem is not AvaAccumulator;
+            return incomingItem.ModItem is not AvaAssembler && incomingItem.ModItem is not AvaAttractor;
         }
 
     }

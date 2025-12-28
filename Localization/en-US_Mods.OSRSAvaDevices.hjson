@@ -3,4 +3,14 @@ Items: {
 		DisplayName: Ava's Attractor
 		Tooltip: "{0}% chance to save ammo"
 	}
+
+	AvaAccumulator: {
+		DisplayName: Ava's Accumulator
+		Tooltip: "{0}% chance to save ammo"
+	}
+
+	AvaAssembler: {
+		DisplayName: Ava's Assembler
+		Tooltip: "{0}% chance to save ammo"
+	}
 }
