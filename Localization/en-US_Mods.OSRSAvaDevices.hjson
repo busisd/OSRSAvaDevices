@@ -1,0 +1,6 @@
+Items: {
+	AvaAttractor: {
+		DisplayName: Ava's Attractor
+		Tooltip: "{0}% chance to save ammo"
+	}
+}
