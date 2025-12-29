@@ -1,0 +1,34 @@
+# OSRS Ava's Devices
+
+Adds Ava's Devices from Old School RuneScape (OSRS) to Terraria! For use with [tModLoader](https://www.tmodloader.net/).
+
+## What Are Ava's Devices?
+
+In Old School RuneScape, Ava's Devices are a set of cape-slot items invented by the mad scientist Ava. Using a magnet,
+an undead branch, and an undead chicken, the devices automatically recover and repair ammunition fired by the player.
+
+This mod adds these devices to Terraria as a convenient accessory for conserving ammunition. Each device grants a large
+chance to save ammunition, with stronger devices offering a higher chance to save ammunition as well as additional
+bonuses to ranged combat.
+
+If you're tired of constantly buying and crafting arrows, bullets, and rockets when playing as a ranger, give Ava's
+Devices a try!
+
+## Items Added
+
+- Ava's Attractor: 60% to conserve ammunition.
+  - Crafted at an anvil with a zombie arm, 12 shadewood/ebonwood, and 10 iron/lead bars.
+- Ava's Accumulator: 72% to conserve ammunition, +5% ranged damage.
+  - Crafted at an anvil with Ava's Attractor plus 10 demonite/crimtane bars.
+- Ava's Assembler: 80% to conserve ammunition, +5% ranged damage and critical strike chance.
+  - Crafted at a mythril/orichalcum anvil with Ava's Accumulator plus 10 cobalt/palladium bars.
+- Dizana's Quiver: 80% to conserve ammunition, +12% ranged damage and critical strike chance, and greatly increases the speed of fired arrows.
+  - Crafted at a mythril/orichalcum anvil with Ava's Assembler, a magic quiver, and 5 solar tablet fragments.
+
+## Screenshots
+
+![Ava's Attractor](./Screenshots/AvaAttractor.png)
+
+![Dizana's Quiver](./Screenshots/DizanaQuiver.png)
+
+![Inventory Icons](./Screenshots/InventoryIcons.png)
