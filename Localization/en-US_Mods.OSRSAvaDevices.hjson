@@ -6,11 +6,30 @@ Items: {
 
 	AvaAccumulator: {
 		DisplayName: Ava's Accumulator
-		Tooltip: "{0}% chance to save ammo"
+		Tooltip:
+			'''
+			{0}% chance to save ammo
+			{1}% increased ranged damage
+			'''
 	}
 
 	AvaAssembler: {
 		DisplayName: Ava's Assembler
-		Tooltip: "{0}% chance to save ammo"
+		Tooltip:
+			'''
+			{0}% chance to save ammo
+			{1}% increased ranged damage and critical strike chance
+			'''
+	}
+
+	DizanaQuiver: {
+		DisplayName: Dizana's Quiver
+		Tooltip:
+			'''
+			A quiver imbued with the power of the sun
+			{0}% chance to save ammo
+			{1}% increased ranged damage and critical strike chance
+			Greatly increases arrow speed
+			'''
 	}
 }

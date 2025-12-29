@@ -14,8 +14,19 @@ namespace OSRSAvaDevices.Content.Items.Accessories
 
         public override void SetDefaults()
         {
-            Item.rare = ItemRarityID.Orange;
+            Item.rare = ItemRarityID.Green;
+            Item.value = Item.sellPrice(0, 0, 50, 0);
             Item.DefaultToAccessory(22, 27);
+        }
+
+        public override void AddRecipes()
+        {
+            CreateRecipe()
+                .AddIngredient(ItemID.ZombieArm)
+                .AddRecipeGroup(OSRSAvaDevicesModSystem.RECIPE_GROUP_EVIL_WOOD, 12)
+                .AddRecipeGroup(RecipeGroupID.IronBar, 10)
+                .AddTile(TileID.Anvils)
+                .Register();
         }
     }
 }
