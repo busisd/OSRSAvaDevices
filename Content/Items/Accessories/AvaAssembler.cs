@@ -1,5 +1,4 @@
-﻿using System;
-using Terraria;
+﻿using Terraria;
 using Terraria.ID;
 using Terraria.Localization;
 using Terraria.ModLoader;
@@ -18,11 +17,5 @@ namespace OSRSAvaDevices.Content.Items.Accessories
             Item.rare = ItemRarityID.Orange;
             Item.DefaultToAccessory(24, 28);
         }
-
-        public override bool CanAccessoryBeEquippedWith(Item equippedItem, Item incomingItem, Player player)
-        {
-            return incomingItem.ModItem is not AvaAttractor && incomingItem.ModItem is not AvaAccumulator;
-        }
-
     }
 }

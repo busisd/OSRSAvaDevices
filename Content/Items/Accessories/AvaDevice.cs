@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Terraria;
 using Terraria.ModLoader;
 
@@ -15,6 +11,22 @@ namespace OSRSAvaDevices.Content.Items.Accessories
         public override void UpdateAccessory(Player player, bool hideVisual)
         {
             player.GetModPlayer<OSRSAvaDevicesPlayer>().avaDeviceAmmoSaveChance = AmmoSaveChance;
+        }
+
+        public override bool CanAccessoryBeEquippedWith(Item equippedItem, Item incomingItem, Player player)
+        {
+            if (equippedItem.ModItem != null && incomingItem.ModItem != null)
+            {
+                Type incomingType = incomingItem.ModItem.GetType();
+                Type equippedType = equippedItem.ModItem.GetType();
+
+                if (incomingType.IsSubclassOf(typeof(AvaDevice)) && equippedType.IsSubclassOf(typeof(AvaDevice)))
+                {
+                    return false;
+                }
+            }
+
+            return base.CanAccessoryBeEquippedWith(equippedItem, incomingItem, player);
         }
     }
 }

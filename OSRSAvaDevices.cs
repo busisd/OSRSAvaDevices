@@ -12,9 +12,10 @@ namespace OSRSAvaDevices
     {
         /*
 		 * TODO:
-		 * Masori's?
+		 * Add crafting recipes and sale prices
+		 * Masori?
 		 * Dizana's?
-		 * Stat bZuffs beyond ammo saving?
+		 * Stat buffs beyond ammo saving?
 		 */
     }
 }
